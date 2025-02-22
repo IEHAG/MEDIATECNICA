@@ -2,6 +2,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/MEDIATECNICA/', // Asegúrate de que el nombre del repo sea correcto
+  base: '/MEDIATECNICA/', // Esto es clave para que funcione en GitHub Pages
   plugins: [react()],
 });
